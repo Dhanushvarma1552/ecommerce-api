@@ -37,7 +37,7 @@ This is a **Node.js** and **MySQL** based E-commerce API that supports multiple 
 
 ### **2. Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/ecommerce-api.git](https://github.com/Dhanushvarma1552/ecommerce-api.git)
+git clone https://github.com/Dhanushvarma1552/ecommerce-api.git
 cd ecommerce-api
 ```
 
