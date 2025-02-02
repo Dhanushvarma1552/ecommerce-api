@@ -1,0 +1,2895 @@
+{
+	"info": {
+		"_postman_id": "231075f7-71f3-4dac-a2a1-372fb6335dd2",
+		"name": "ecommerceAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41730032"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model2\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook1\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"macbook\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500000,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA4MTI3LCJleHAiOjE3Mzg1MTE3Mjd9.PyX1O0becBYtU2Wdb-1U4DTn5rvkgBO0MrLtQIlvHcc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendoe1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products/6",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA4MTI3LCJleHAiOjE3Mzg1MTE3Mjd9.PyX1O0becBYtU2Wdb-1U4DTn5rvkgBO0MrLtQIlvHcc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendoe1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA4MTI3LCJleHAiOjE3Mzg1MTE3Mjd9.PyX1O0becBYtU2Wdb-1U4DTn5rvkgBO0MrLtQIlvHcc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendoe1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA4MTI3LCJleHAiOjE3Mzg1MTE3Mjd9.PyX1O0becBYtU2Wdb-1U4DTn5rvkgBO0MrLtQIlvHcc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendoe1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\"email\": \"admin@gmail.com\",\n  \"password\": \"admin\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"admin\",\n  \"email\": \"admin@gmail.com\",\n  \"password\": \"admin\",\n  \"role\": \"admin\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendoe1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NTA3NzczLCJleHAiOjE3Mzg1MTEzNzN9.C71o1DoUOd8mlqAwL7fbbqtMNI8p2d8BjVbSbO9YoW4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NTA3NzczLCJleHAiOjE3Mzg1MTEzNzN9.C71o1DoUOd8mlqAwL7fbbqtMNI8p2d8BjVbSbO9YoW4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/users/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NTA3NzczLCJleHAiOjE3Mzg1MTEzNzN9.C71o1DoUOd8mlqAwL7fbbqtMNI8p2d8BjVbSbO9YoW4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/users/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"users",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NTA3NzczLCJleHAiOjE3Mzg1MTEzNzN9.C71o1DoUOd8mlqAwL7fbbqtMNI8p2d8BjVbSbO9YoW4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NTA3NzMxLCJleHAiOjE3Mzg1MTEzMzF9.qi4trIgDzcOG8dpHrpNSF0PyF9qNa8knZJ5rNz7sPoA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjk5MiwiZXhwIjoxNzM4NTEwNTkyfQ.bXR2RD0bHEIELM2TRj1IcTqqFLOQ_1UBthVr2zz3aG8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 7\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendor12@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"vendor1\",\n  \"email\": \"vendor12@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\", // or \"vendor\"\n  \"companyName\":\"vendoe1 PL\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"vendor1\",\n  \"email\": \"vendor1@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\", // or \"vendor\"\n  \"companyName\":\"vendoe1 PL\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/vendor/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6InZlbmRvciIsImlhdCI6MTczODUwNjU2OSwiZXhwIjoxNzM4NTEwMTY5fQ.bmVrs8-atytYX7hJN9WaEneCPZMOOn1gRMCgxnYgDtU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Smartphone\",\n    \"description\": \"Latest model\",\n    \"category\": \"Electronics\",\n    \"oldPrice\": 500,\n    \"newPrice\": 450,\n    \"startDate\": \"2025-02-02\",\n    \"expiryDate\": \"2025-12-31\",\n    \"deliveryAmount\": 10,\n    \"isFreeDelivery\": false,\n    \"imageUrl\": \"https://example.com/image.jpg\",\n    \"vendorId\": 6\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/vendor/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vendor",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendor1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"vendor1@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"vendor1\",\n  \"email\": \"vendor1@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Laptop\",\n  \"description\": \"High-performance laptop\",\n  \"category\": \"Electronics\",\n  \"oldPrice\": 1200.00,\n  \"newPrice\": 1000.00,\n  \"startDate\": \"2023-10-01\",\n  \"expiryDate\": \"2023-10-08\",\n  \"deliveryAmount\": 20.00,\n  \"isFreeDelivery\": false,\n  \"imageUrl\": \"http://example.com/laptop.jpg\",\n  \"vendorId\": 4\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Laptop\",\n  \"description\": \"High-performance laptop\",\n  \"category\": \"Electronics\",\n  \"oldPrice\": 1200.00,\n  \"newPrice\": 1000.00,\n  \"startDate\": \"2023-10-01\",\n  \"expiryDate\": \"2023-10-08\",\n  \"deliveryAmount\": 20.00,\n  \"isFreeDelivery\": false,\n  \"imageUrl\": \"http://example.com/laptop.jpg\",\n  \"vendorId\": 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Laptop\",\n  \"description\": \"High-performance laptop\",\n  \"category\": \"Electronics\",\n  \"oldPrice\": 1200.00,\n  \"newPrice\": 1000.00,\n  \"startDate\": \"2023-10-01\",\n  \"expiryDate\": \"2023-10-08\",\n  \"deliveryAmount\": 20.00,\n  \"isFreeDelivery\": false,\n  \"imageUrl\": \"http://example.com/laptop.jpg\",\n  \"vendorId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzM4NTA0MzI2LCJleHAiOjE3Mzg1MDc5MjZ9.u7qqDfUaqqvp98x6bED5CF4_PAOR8fwUUlswerq3Ao0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"dhanushvarma5125@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh12\",\n  \"email\": \"dhanushvarma5125@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"admin\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh1\",\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"admin\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/admin/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6InZlbmRvciIsImlhdCI6MTczODQ5NDQ0NywiZXhwIjoxNzM4NDk4MDQ3fQ.ZpEEZxT4dAhwWHGmuV302MGbc1vEfc5huU6Svk0oUP8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/admin/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"admin",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"dhanushvarma5115@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh1\",\n  \"email\": \"dhanushvarma5115@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh1\",\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh\",\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"vendor\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NDk0MTM3LCJleHAiOjE3Mzg0OTc3Mzd9.dHpmCsmPMw455KvJm_jgMyXKly2DXX65hwtvTuPJTXY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImJ1eWVyIiwiaWF0IjoxNzM4NDk0MTM3LCJleHAiOjE3Mzg0OTc3Mzd9.dHpmCsmPMw455KvJm_jgMyXKly2DXX65hwtvTuPJTXY\"\n",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Dhansuh\",\n  \"email\": \"dhanushvarma515@gmail.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer a8de817b4060bcf670b82cdb478668872370635d86df25ba8da7d7b977695d67d33421d17533242b0bbba6581817326e199f0774c4b68749329251a073d7ab19",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer yourjwtsecretkey",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <JWT_TOKEN>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\",\n  \"role\": \"buyer\" // or \"vendor\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
